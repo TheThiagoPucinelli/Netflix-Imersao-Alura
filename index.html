@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+
+        <header>
+            <div id="netflix-logo" aria-label="Logo da Netflix">NETFLIX</div>
+        </header>
+        <button id="theme-toggle" onclick="toggleTheme()" aria-label="Alternar tema" class="theme-switch" type="button">
+            <span class="theme-switch-track" aria-hidden="true">
+                <span class="theme-switch-thumb"></span>
+            </span>
+        </button>
+        <center><h1>Quem está assistindo?</h1></center>
+        <section aria-label="Perfis disponíveis">
+            <nav class="profiles">
+                <ul>
+                    <li>
+                        <a href="#" class="profile">
+                            <figure>
+                                <img src="/assets/perfil1.png" alt="um lobo cinza, com olhos amarelos, em um fundo de floresta.">
+                                <figcaption>Gustavo</figcaption>
+                            </figure>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="profile">
+                            <figure>
+                                <img src="/assets/perfil2.jpg" alt="um personagem de anime masculino, com cabelos laranjas e olhar sério com mão no rosto, em um fundo preto.">
+                                <figcaption>Thiago</figcaption>
+                            </figure>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="profile">
+                            <figure>
+                                <img src="/assets/perfil3.png" alt="uma personagem de anime feminina, com cabelos roxos e olhar sério, em um fundo de telas.">
+                                <figcaption>Julia</figcaption>
+                            </figure>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="profile">
+                            <figure>
+                                <img src="/assets/perfil4.jpg" alt="imagem de uma raposa, com olhos amarelos, em um fundo de floresta.">
+                                <figcaption>Rodrigo</figcaption>
+                            </figure>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </section>
+        <a href="#" class="manage-profile"><span class="manage-profile-icon" aria-hidden="true">✎</span> Gerenciar Perfil</a>
+    </main>
+
+   
+
+    <script src="theme.js"></script>
+</body>
+</html>
